@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+
+@keyframes scaleOut {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+    14% {
+        transform: scale(1.3);
+    }
+    28% {
+        transform: scale(1);
+    }
+    42% {
+        transform: scale(1.3);
+    }
+    70% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25,.75,1);
+        transform: scale3d(1.25,.75,1);
+    }
+    40% {
+        -webkit-transform: scale3d(.75,1.25,1);
+        transform: scale3d(.75,1.25,1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15,.85,1);
+        transform: scale3d(1.15,.85,1);
+    }
+    65% {
+        -webkit-transform: scale3d(.95,1.05,1);
+        transform: scale3d(.95,1.05,1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05,.95,1);
+        transform: scale3d(1.05,.95,1);
+    }
+    100% {
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+}
+
+@keyframes arrowdown {
+    from
+    {
+        top:9vh;
+        opacity: 0;
+    }
+
+    to
+    {
+        top:12.5vh;
+        opacity: 1;
+    }
+}
+
+@keyframes slowloading{
+    from{
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+
+*{
+    font-family: Poppins,sans-serif;
+}
+
+#hero
+{
+    background-color: rgb(245,223,78);
+    height: 100vh;
+    /* animation: slowloading 2s linear; */
+    
+}
+
+/* Animations */
+
+.fadeInUp
+{
+    animation: fadeInUp 1s;
+}
+
+.heartBeat
+{
+    animation: heartBeat 1s;
+}
+
+.rubberBand
+{
+    animation: rubberBand 1s;
+}
+
+
+/* Animations */
+
+
+
+
+
+
+
+#btnHome
+{
+    border-radius: 0;
+    border-color: black;
+}
+
+#btnHome:hover
+{
+    cursor: pointer;
+    background-color: rgb(69, 68, 68);
+}
+
+
+#heroImg
+{
+    width: 200px;
+    border: 9px solid white;
+    animation: scaleOut 1s;
+}
+
+#arrow-down
+{
+    width: 26px;
+    position: relative;
+    top:8vh;    
+    animation: arrowdown 1.6s linear infinite;
+ 
+}
+
+.navbar
+{
+    border-bottom: 1px solid rgb(210, 209, 209);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+#navBar li a
+{
+    color: black;
+    opacity: 0.9;
+}
+
+#navBarName
+{
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+#twitterIcon
+{
+    color: rgb(29, 161, 242);
+    padding-right: 0;
+}
+
+#instagramIcon
+{
+    color: rgb(231,54,113);
+    
+}
+
+#socialMedia li a
+{
+    padding-left: 0;
+    padding-top: 0;
+}
+
+#navbarSupportedContent ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2.4px;
+    text-decoration-color: rgb(243, 220, 71);
+    text-underline-offset: 0.5em;
+    cursor: pointer;
+  }
+
+.nav-item .active
+{
+    text-decoration: underline;
+    text-decoration-thickness: 2.4px;
+    text-decoration-color: rgb(243, 220, 71);
+    text-underline-offset: 0.5em;
+    /* cursor: pointer; */
+} 
+  
+#socialMedia li a:hover{
+    transform: scale(1.1);
+}
+
+#aboutMe span,#whatIDo span
+{
+    background-color: rgb(245,223,78);
+}
+
+#aboutName
+{
+    text-decoration: underline;
+    text-decoration-thickness: 2.4px;
+    text-decoration-color: rgb(243, 220, 71);
+    text-underline-offset: 0.3em;
+}
+
+#knowMeMore
+{
+    font-size: 39px;
+}
+
+#aboutYearExperience span
+{
+    background-color: rgb(245,223,78);
+    border-radius: 50px;
+    font-size: 130px;
+    color: rgb(76,77,77);
+}
+
+#servieContentInfo div i
+{
+    font-size:50px;
+    color: rgb(247, 224, 71);
+}
+
+#servieContentInfo div p
+{
+    color: rgb(108,117,125);
+}
+
+.ResumeEduExpBlock p
+{
+    color:rgb(53, 148, 231);
+    border-bottom: 1px solid rgb(232,233,233);
+    line-height: 28px;
+}
+
+#ResumeLeftColor
+{
+    border-left: 2px solid rgb(247, 224, 71);
+}
+
+.myExperienceBlock div p
+{
+    color: rgb(108,117,125);
+}
+
+#Certifications img
+{
+    width: 200px;
+    height: 200px;
+}
+
+#viewCVBtn:hover
+{
+    background-color: black;
+    color:white;
+}
+
+#eachProject
+{
+    transition: all 0.2s linear;
+    
+}
+
+#eachProject:hover
+{
+    transform: scale(1.1); 
+}
+
+.eachProjectName
+{
+    color: rgb(48, 48, 48);
+}
+
+#hireMe
+{
+    height: 400px;
+    background: linear-gradient(to right, rgba(24, 24, 24, 0.7),rgba(24, 24, 24, 0.7)), url("../../public/Images/hireMe.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#hireMeBtn
+{
+    background-color: rgb(245,223,78);
+}
+
+
+
+#sendBtn
+{
+    width:20px;
+}
+
+#ContactSection
+{
+    background-color: rgb(245,223,78);
+}
+
+#ContactoForm input
+{
+    height: 50px;
+    border:none;
+    border-bottom: 2px solid rgba(0,0,0,.12);
+    background-color: transparent;
+}
+
+
+#ContactoForm textarea
+{
+    height: 100px;
+    border:none;
+    border-bottom: 2px solid rgba(0,0,0,.12);
+    background-color: transparent;
+    
+}
+
+#arrow-right
+{
+    width:20px;
+}
+
+#Certifications img
+{
+    width: 150px;
+    height:150px;
+}
+
+
+@media only screen and (max-width: 578px) {
+  .credits {
+    text-align:center;
+    }
+}
