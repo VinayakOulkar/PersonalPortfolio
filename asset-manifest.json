@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PersonalPortfolio/static/css/main.c0992c5c.css",
+    "main.js": "/PersonalPortfolio/static/js/main.29ef81b6.js",
+    "static/js/787.0f8d78ff.chunk.js": "/PersonalPortfolio/static/js/787.0f8d78ff.chunk.js",
+    "static/media/hireMe.jpg": "/PersonalPortfolio/static/media/hireMe.55f2cb3bb1a839af9f11.jpg",
+    "index.html": "/PersonalPortfolio/index.html",
+    "main.c0992c5c.css.map": "/PersonalPortfolio/static/css/main.c0992c5c.css.map",
+    "main.29ef81b6.js.map": "/PersonalPortfolio/static/js/main.29ef81b6.js.map",
+    "787.0f8d78ff.chunk.js.map": "/PersonalPortfolio/static/js/787.0f8d78ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0992c5c.css",
+    "static/js/main.29ef81b6.js"
+  ]
+}
